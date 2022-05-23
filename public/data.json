@@ -1,0 +1,37 @@
+[
+    {
+        "_id":1,
+        "name": "Yahamaha R15 V3",
+        "price": 470000,
+        "minimum quantity":150,
+        "available quantity": 120,
+        "quantity":45,
+        "brand":"Yamaha",
+        "description": "Milage:48.75 kmpl,Displacement : 155 ccEngine, TypeLiquid-cooled, 4-stroke",
+        "img": "https://i.ibb.co/SXZhLsG/Yahamaha-R15-V3.png"
+    },
+    {
+        "_id":2,
+        "name": "Yahamaha R15 V3",
+        "price": 470000,
+        "minimum":150,
+        "available": 120,
+        "quantity":45,
+        "brand":"Yamaha",
+        "description": "Milage:48.75 kmpl,Displacement : 155 ccEngine, TypeLiquid-cooled, 4-stroke",
+        "img": "https://i.ibb.co/SXZhLsG/Yahamaha-R15-V3.png"
+    },
+    
+    {
+        "_id":3,
+        "name": "Yahamaha R15 V3",
+        "price": 470000,
+        "minimum quantity":150,
+        "available quantity": 120,
+        "quantity":45,
+        "brand":"Yamaha",
+        "description": "Milage:48.75 kmpl,Displacement : 155 ccEngine, TypeLiquid-cooled, 4-stroke",
+        "img": "https://i.ibb.co/SXZhLsG/Yahamaha-R15-V3.png"
+    }
+ 
+]
