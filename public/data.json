@@ -1,6 +1,5 @@
 [
     {
-        "_id":1,
         "name": "Yahamaha R15 V3",
         "price": 470000,
         "minimum quantity":150,
@@ -11,7 +10,6 @@
         "img": "https://i.ibb.co/SXZhLsG/Yahamaha-R15-V3.png"
     },
     {
-        "_id":2,
         "name": "Yahamaha R15 V3",
         "price": 470000,
         "minimum":150,
@@ -23,7 +21,6 @@
     },
     
     {
-        "_id":3,
         "name": "Yahamaha R15 V3",
         "price": 470000,
         "minimum quantity":150,
