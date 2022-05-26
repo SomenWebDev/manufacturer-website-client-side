@@ -1,34 +1,67 @@
 [
     {
-        "name": "Yahamaha R15 V3",
-        "price": 470000,
-        "minimum quantity":150,
-        "available quantity": 120,
-        "quantity":45,
-        "brand":"Yamaha",
-        "description": "Milage:48.75 kmpl,Displacement : 155 ccEngine, TypeLiquid-cooled, 4-stroke",
-        "img": "https://i.ibb.co/SXZhLsG/Yahamaha-R15-V3.png"
-    },
-    {
+        
         "name": "Yahamaha R15 V3",
         "price": 470000,
         "minimum":150,
-        "available": 120,
-        "quantity":45,
+        "available":1042,
         "brand":"Yamaha",
         "description": "Milage:48.75 kmpl,Displacement : 155 ccEngine, TypeLiquid-cooled, 4-stroke",
         "img": "https://i.ibb.co/SXZhLsG/Yahamaha-R15-V3.png"
     },
-    
     {
-        "name": "Yahamaha R15 V3",
-        "price": 470000,
-        "minimum quantity":150,
-        "available quantity": 120,
-        "quantity":45,
-        "brand":"Yamaha",
-        "description": "Milage:48.75 kmpl,Displacement : 155 ccEngine, TypeLiquid-cooled, 4-stroke",
-        "img": "https://i.ibb.co/SXZhLsG/Yahamaha-R15-V3.png"
+       
+        "name": "Twine Disc Pulsar",
+        "price": 170000,
+        "minimum":200,
+        "available":850,
+        "brand":"Bajaj",
+        "description": "4-Stroke, 2-Valve, Twin Spark BSVI Compliant DTS-i FI Engine,Milage:65kmpl",
+        "img": "https://i.ibb.co/ggVrg95/Twine-Disc-Pulsar.png"
+    },
+    {
+       
+        "name": "TVS Raider 125",
+        "price": 144900,
+        "minimum":200,
+        "available":850,
+        "brand":"TVS",
+        "description": " 4 stroke, fuel injection, air-oil cooled, spark ignition engine,124.8 cc displacement",
+        "img": "https://i.ibb.co/R0QHX9j/Tvs-Raider.png"
+    },
+   
+    {
+     
+        "name": "Bajaj AVENGER 160",
+        "price": 226500,
+        "minimum":200,
+        "available":850,
+        "brand":"Bajaj",
+        "description": "Twin Spark DTS-i , Fuel Injected, 4 stroke, SOHC, 2 valve, Air cooled,47.2 kmpl milage",
+        "img": "https://i.ibb.co/tDcmfH1/Bazaz-Avenzer.png"
+    },
+   
+    {
+     
+        "name": "Honda CB Shine SP",
+        "price": 135900,
+        "minimum":200,
+        "available":850,
+        "brand":"Honda",
+        "description": "65 kmpl milage,Displacement 124.73 cc,Air cooled, 4 stroke, SI engine",
+        "img": "https://i.ibb.co/pKcPR1F/Honda-CB-Shine.png"
+    },
+   
+    {
+       
+        "name": "Suzuki Gixxer SF 150 ABS",
+        "price": 291958,
+        "minimum":200,
+        "available":850,
+        "brand":"Suzuki",
+        "description": "4-Stroke, 1-cylinder, Air cooled,155 cc displacement,45 kmpl milage",
+        "img": "https://i.ibb.co/NWMMS2W/Suzuki-gixer-sf.png"
     }
- 
+   
+   
 ]

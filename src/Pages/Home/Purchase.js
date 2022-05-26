@@ -60,7 +60,7 @@ const Purchase = () => {
             <img src={img} alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
+            <h2 class="card-title">{name}</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
           </div>
         </div>
@@ -121,6 +121,7 @@ const Purchase = () => {
                   class="input input-bordered w-full max-w-xs"
                   placeholder="Quantity"
                   name="quantity"
+                  value={product.minimum}
                   required
                 />
                 <button class="btn btn-primary my-2">Order</button>
