@@ -121,7 +121,6 @@ const Purchase = () => {
                   class="input input-bordered w-full max-w-xs"
                   placeholder="Quantity"
                   name="quantity"
-                  value={product.minimum}
                   required
                 />
                 <button class="btn btn-primary my-2">Order</button>
