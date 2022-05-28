@@ -10,17 +10,22 @@ const Product = ({ product }) => {
   return (
     <div class="card lg:max-w-lg bg-base-100 shadow-xl">
       <figure>
-        <img class="object-cover h-56  w-full ..." src={img} alt="" />
+        <img class="object-cover   w-full ..." src={img} alt="" />
       </figure>
       <div class="card-body">
-        <h2 class="card-title">{name}</h2>
-        <p>{description}</p>
-        <p>{minimum}</p>
-        <p>{available}</p>
-        <p>{price}</p>
+        <h2 class="card-title text-red-400">{name}</h2>
+        <p className="text-red-400 font-bold">{description}</p>
+        <p className="text-red-400  font-bold">Minimum Order:{minimum}Pc</p>
+        <p className="text-red-400  font-bold">
+          Available in stock:{available} Pc
+        </p>
+        <p className="text-red-400  font-bold">Price:BDT{price}</p>
         <div class="card-actions justify-center">
-          <button onClick={() => handlePurchase(_id)} class="btn btn-secondary">
-            Buy Products
+          <button
+            onClick={() => handlePurchase(_id)}
+            class="btn btn-secondary  w-full"
+          >
+            Book Now
           </button>
         </div>
       </div>

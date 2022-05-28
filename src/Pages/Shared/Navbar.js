@@ -65,7 +65,9 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Tools</a>
+        <NavLink className="italic font-bold text-2xl" to="/">
+          Woodworkers
+        </NavLink>
       </div>
 
       <div className="navbar-end">
