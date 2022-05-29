@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import ReviewDetails from "./ReviewDetails";
 
 const Review = () => {
+  const [reviews, setReviews] = useState([]);
+  useEffect(() => {
+    fetch("https://localhost:5000/review")
+      .then((res) => res.json())
+      .then((data) => console.log(data));
+  }, []);
   return (
     <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-      <div class="card w-96 bg-base-100 shadow-xl">
-        <div class="card-body">
-          <h2 class="card-title">Card title!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
-          </div>
-        </div>
-      </div>
+      <h1>xxsssfsdsafsaf</h1>
+      {reviews.map((review) => (
+        <ReviewDetails review={review} key={review._id}></ReviewDetails>
+      ))}
     </div>
   );
 };

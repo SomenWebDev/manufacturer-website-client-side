@@ -33,8 +33,7 @@ const MyOrders = () => {
   }, [user]);
 
   return (
-    <div>
-      <h2>My Orders:{orders.length}</h2>
+    <div className="my-3">
       <div class="overflow-x-auto">
         <table class="table w-full">
           <thead>

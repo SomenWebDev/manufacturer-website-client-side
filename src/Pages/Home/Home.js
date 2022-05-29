@@ -2,8 +2,10 @@ import React from "react";
 import Footer from "../Shared/Footer";
 import Banner from "./Banner";
 import Products from "./Products";
-import Review from "./Review";
+
 import Summary from "./Summary";
+import GetIntouch from "./GetIntouch";
+import Review from "./Review";
 
 const Home = () => {
   return (
@@ -13,6 +15,7 @@ const Home = () => {
 
       <Summary></Summary>
       <Review></Review>
+      <GetIntouch></GetIntouch>
       <Footer></Footer>
     </div>
   );
