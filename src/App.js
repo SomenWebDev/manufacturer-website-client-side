@@ -19,6 +19,8 @@ import AddProduct from "./Pages/Dashboard/AddProduct";
 import RequireAdmin from "./Pages/Login/RequireAdmin";
 import Products from "./Pages/Home/Products";
 import ManageProduct from "./Pages/Dashboard/ManageProduct";
+import MyPortfolio from "./Pages/MyPortfolio/MyPortfolio";
+import Blog from './Pages/Blog/Blog';
 
 function App() {
   return (
@@ -26,9 +28,11 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/" element={<Products></Products>}></Route>
+        <Route path="/products" element={<Products></Products>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<Signup></Signup>}></Route>
+        <Route path="/blog" element={<Blog></Blog>}></Route>
+        <Route path="myportfolio" element={<MyPortfolio></MyPortfolio>}></Route>
         <Route
           path="/product/:productId"
           element={
