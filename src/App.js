@@ -47,6 +47,7 @@ function App() {
           <Route path="profile" element={<MyProfile></MyProfile>}></Route>
 
           <Route path="addProduct" element={<AddProduct></AddProduct>}></Route>
+          <Route path="users" element={<Users></Users>}></Route>
         </Route>
 
         <Route path="*" element={<NotFound></NotFound>}></Route>
