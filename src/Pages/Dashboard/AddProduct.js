@@ -39,7 +39,7 @@ const AddProduct = () => {
             price: data.price,
             img: img,
           };
-          fetch("http://localhost:5000/product", {
+          fetch("https://stormy-journey-50277.herokuapp.com/product", {
             method: "POST",
             headers: {
               "content-type": "application/json",

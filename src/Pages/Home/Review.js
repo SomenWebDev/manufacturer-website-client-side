@@ -1,18 +1,17 @@
 import React, { useEffect, useState } from "react";
-import ReviewDetails from "./ReviewDetails";
+import ReviewDetail from "./ReviewDetail";
 
 const Review = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("https://localhost:5000/review")
+    fetch("https://stormy-journey-50277.herokuapp.com/review")
       .then((res) => res.json())
-      .then((data) => console.log(data));
+      .then((data) => setReviews(data));
   }, []);
   return (
-    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-      <h1>xxsssfsdsafsaf</h1>
+    <div>
       {reviews.map((review) => (
-        <ReviewDetails review={review} key={review._id}></ReviewDetails>
+        <ReviewDetail review={review}></ReviewDetail>
       ))}
     </div>
   );

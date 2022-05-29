@@ -11,7 +11,7 @@ const ManageProduct = () => {
     isLoading,
     refetch,
   } = useQuery("products", () =>
-    fetch("http://localhost:5000/product", {
+    fetch("https://stormy-journey-50277.herokuapp.com/product", {
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
       },
