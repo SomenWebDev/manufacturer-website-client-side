@@ -2,10 +2,11 @@ import React from "react";
 import { useForm } from "react-hook-form";
 
 const AddReview = () => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
+
   const onSubmit = (data) => {
     console.log(data);
-    const url = `https://stormy-journey-50277.herokuapp.com/review`;
+    const url = "https://stormy-journey-50277.herokuapp.com/review";
     fetch(url, {
       method: "POST",
       headers: {
@@ -16,6 +17,7 @@ const AddReview = () => {
       .then((res) => res.json())
       .then((result) => {
         console.log(result);
+        reset();
       });
   };
   return (

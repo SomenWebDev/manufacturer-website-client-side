@@ -42,19 +42,11 @@ const ManageProduct = () => {
                 product={product}
                 index={index}
                 refetch={refetch}
-                setDeletingProduct={setdeletingProduct}
               ></ProductRow>
             ))}
           </tbody>
         </table>
       </div>
-      {deletingProduct && (
-        <DeleteConfirmModal
-          deletingProduct={deletingProduct}
-          refetch={refetch}
-          setdeletingProduct={setdeletingProduct}
-        ></DeleteConfirmModal>
-      )}
     </div>
   );
 };

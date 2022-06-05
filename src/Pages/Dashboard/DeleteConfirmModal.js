@@ -17,7 +17,7 @@ const DeleteConfirmModal = ({
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        if (data.deletedCount) {
+        if (data.deletedCount > 0) {
           toast.success(`Product: ${name} is deleted.`);
           setDeletingProduct(null);
           refetch();

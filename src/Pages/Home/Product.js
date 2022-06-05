@@ -10,7 +10,7 @@ const Product = ({ product }) => {
   return (
     <div class="card lg:max-w-lg bg-base-100 shadow-xl">
       <figure>
-        <img class="object-cover   w-full ..." src={img} alt="" />
+        <img class="object-cover w-full" src={img} alt="" />
       </figure>
       <div class="card-body">
         <h2 class="card-title text-red-400">{name}</h2>

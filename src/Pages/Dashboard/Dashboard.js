@@ -15,12 +15,6 @@ const Dashboard = () => {
           Welcome to Dashboard
         </h2>
         <Outlet></Outlet>
-        {/* <label
-          for="my-drawer-2"
-          class="btn btn-primary drawer-button lg:hidden"
-        >
-          Open drawer
-        </label> */}
       </div>
       <div class="drawer-side">
         <label for="dashboard-sidebar" class="drawer-overlay"></label>
@@ -50,6 +44,9 @@ const Dashboard = () => {
               </li>
               <li>
                 <Link to="/dashboard/users">All Users</Link>
+              </li>
+              <li>
+                <Link to="/dashboard/manageOrder">Manage Order</Link>
               </li>
             </>
           )}
